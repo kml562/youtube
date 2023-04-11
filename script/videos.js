@@ -35,27 +35,26 @@ const searchvideo = async () => {
 
 const contanier = document.getElementById("contanier");
 
+
 const appendfunction = (arr) => {
   contanier.innerHTML = null;
   arr.forEach(({ snippet, id: { videoId } }) => {
-    let div = document.createElement("div");
-    div.className = "videos";
 
-    let details = document.createElement("div");
-    details.className = "details";
-    let p_title = document.createElement("p");
-    p_title.innerText = snippet.title;
-    let p_channelName = document.createElement("h3");
-    p_channelName.innerText = snippet.channelTitle;
-    //    p_channelName.style="font-weight:bold";
-    let thumbail = document.createElement("img");
-    thumbail.className = "thumbnail";
-    thumbail.src = snippet.thumbnails.high.url;
-    let channelimg = document.createElement("img");
-    channelimg.id = "channelimg";
-    channelimg.src =
-      "https://yt3.ggpht.com/fP3Q09BEQukh9S-dRt_jEemdETVJWmcAkbAaHe0hn6cBOjGx5kpVSVKpn-oQbqkParC_dZE9=s88-c-k-c0x00ffffff-no-rj-mo";
-    div.append(thumbail, p_channelName, p_title);
+
+    let videoscontanier= document.createElement("div");
+    videoscontanier.className= "video-container"
+    videoscontanier.innerHTML= `
+    <div class="video">
+        <img src=${snippet.thumbnails.high.url} class="thumbnail" alt="">
+        <div class="content">
+            <img src="https://lh3.googleusercontent.com/ogw/AOLn63EwPLaH-qxaoQYRb75CjCR5AI9UrfEzsK5-f6-S=s64-c-mo" class="channel-icon" alt="">
+            <div class="info">
+                <h4 class="title">${snippet.title}</h4>
+                <p class="channel-name">${snippet.channelTitle}</p>
+            </div>
+        </div>
+    </div>`
+contanier.append(videoscontanier)
     div.addEventListener("click", function () {
       newpage(snippet, videoId);
     });
