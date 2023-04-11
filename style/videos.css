@@ -161,3 +161,39 @@
       width: 25rem;
     }
   }
+  #main{
+    margin: 15px;
+    width: 70%;
+    
+}
+#container{
+   
+display: flex;
+height: 500px;
+}
+#video_details{
+    flex: 7;
+}
+#recommendation{
+    flex: 3;
+}
+/* div{
+    border: solid white 3px;
+} */
+#newdata{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    margin-top: 30px;
+    text-align: center;
+    
+    }
+    #newdata div{
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    #newdata div img{
+        width: 100%;
+    }

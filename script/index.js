@@ -32,7 +32,29 @@ const searchvideo = async () => {
     console.log(error);
   }
 };
-
+let body= document.querySelector("body");
+body.onload=()=>{
+    suggection()
+}
+const suggection= async()=>{
+    try {
+        try {
+            const apiKey = "AIzaSyAud_K4GUIUosvr-C5aPniZfpa0FlW4G5M";
+            // let serach = document.getElementById("serach_term").value;
+            let res = await fetch(
+  ` https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=24&q=surfing&key=${apiKey}`
+            );
+            let data = await res.json();
+            let adata = data.items;
+            appendfunction(adata);
+            console.log(adata);
+          } catch (error) {
+            console.log(error);
+          }
+    } catch (error) {
+        console.log(error)
+    }
+}
 const contanier = document.getElementById("contanier");
 
 const appendfunction = (arr) => {
@@ -73,3 +95,6 @@ const newpage = (snippet, videoId) => {
   localStorage.setItem("clickedvideo", data);
   window.location.href = "../videos.html";
 };
+
+
+
