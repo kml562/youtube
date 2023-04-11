@@ -8,9 +8,9 @@ const navbar =() =>{
   </div>
   
   <div class="search center">
-    <form action="">
-      <input type="text" placeholder="Search" />
-      <button><i class="material-icons">search</i></button>
+    <form id="form_data" action="">
+      <input id="serach_term" type="text" placeholder="Search" />
+      <button id="searchbutton-nav" ><i class="material-icons">search</i></button>
     </form>
     <i class="material-icons mic">mic</i>
   </div>
