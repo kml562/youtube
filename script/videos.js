@@ -19,7 +19,7 @@ searchbuttonn.onclick = () => {
 
 const searchvideo = async () => {
   try {
-    const apiKey = "AIzaSyAud_K4GUIUosvr-C5aPniZfpa0FlW4G5M";
+    const apiKey="AIzaSyCMK0pW_72rqVTygUXt3PMiYq_xtK6bbcc"
     let serach = document.getElementById("serach_term").value;
     let res = await fetch(
       `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${serach}&key=${apiKey}`
