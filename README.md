@@ -21,7 +21,7 @@ Due to the limited number of API requests provided by Google, there may be times
 
 ## Credits
 
-This project was created by Kamal Bisht. The data for the videos is obtained from the Google API.
+This project was created by [Kamal Bisht](https://www.linkedin.com/in/kamal-bisht-552a17193/). The data for the videos is obtained from the Google API.
 
 ## License
 
