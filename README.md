@@ -13,7 +13,7 @@ To use this YouTube clone, simply clone or download the repository and open the 
 - Search for videos using keywords
 - Display video thumbnails, titles, and descriptions
 - Play videos in a modal window
-- Pagination to navigate through search results
+
 
 ## Limitations
 
