@@ -25,6 +25,9 @@ To use this YouTube clone, simply clone or download the repository and open the 
 
 # 3 Serach  Page ⤵️
 <img width="946" alt="image" src="https://github.com/kml562/youtube/blob/main/comonent/serach%20.png">
+
+
+
 ## Limitations
 
 Due to the limited number of API requests provided by Google, there may be times when the data will not be displayed. If this happens, please try again later or contact the developer for assistance.
