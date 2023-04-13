@@ -9,12 +9,14 @@ This is a YouTube clone that is built using HTML, CSS, and JavaScript. The data 
 To use this YouTube clone, simply clone or download the repository and open the `index.html` file in your web browser.
 
 ## Features
-
+- Suggestions in homepage
 - Search for videos using keywords
 - Display video thumbnails, titles, and descriptions
 - Play videos in a modal window
 
+# 1.Landing Page ⤵️
 
+<img width="946" alt="image" src="">
 ## Limitations
 
 Due to the limited number of API requests provided by Google, there may be times when the data will not be displayed. If this happens, please try again later or contact the developer for assistance.
