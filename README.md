@@ -7,7 +7,8 @@ This is a YouTube clone that is built using HTML, CSS, and JavaScript. The data 
 ## Getting Started
 
 To use this YouTube clone, simply clone or download the repository and open the `index.html` file in your web browser.
-
+  ## Deployed Link ->
+  https://stellular-rabanadas-cab451.netlify.app/
 ## Features
 - Suggestions in homepage
 - Search for videos using keywords
@@ -16,7 +17,14 @@ To use this YouTube clone, simply clone or download the repository and open the 
 
 # 1.Landing Page ⤵️
 
-<img width="946" alt="image" src="">
+<img width="946" alt="image" src="https://github.com/kml562/youtube/blob/main/comonent/homepage.png">
+
+
+# 2 Video Page ⤵️
+<img width="946" alt="image" src="https://github.com/kml562/youtube/blob/main/comonent/videos.png">
+
+# 3 Serach  Page ⤵️
+<img width="946" alt="image" src="https://github.com/kml562/youtube/blob/main/comonent/serach%20.png">
 ## Limitations
 
 Due to the limited number of API requests provided by Google, there may be times when the data will not be displayed. If this happens, please try again later or contact the developer for assistance.
