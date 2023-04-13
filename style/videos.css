@@ -175,7 +175,9 @@ height: 500px;
     flex: 7;
 }
 #recommendation{
-    flex: 3;
+   width: 10%;
+   height: 40px;
+
 }
 /* div{
     border: solid white 3px;

@@ -89,7 +89,7 @@ const newpage = (snippet, videoId) => {
   };
   data = JSON.stringify(data);
   localStorage.setItem("clickedvideo", data);
-  window.location.href = "../videos.html";
+  window.location.href = "./videos.html";
 };
 
 
