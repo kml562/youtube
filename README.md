@@ -25,4 +25,4 @@ This project was created by [Kamal Bisht](https://www.linkedin.com/in/kamal-bish
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kml562/youtube/blob/main/LICENSE) file for details.
